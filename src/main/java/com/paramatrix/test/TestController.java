@@ -10,6 +10,6 @@ public class TestController {
 
 	@GetMapping("/test")
 	public ResponseEntity<Object> testApi(){
-		return new ResponseEntity<>("Api is working.....!",HttpStatus.OK);
+		return new ResponseEntity<>("Api is working........!",HttpStatus.OK);
 	}
 }
