@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.mock.web.MockHttpServletResponse;
@@ -28,6 +27,6 @@ public class TestApplicationTests {
 	public void testController() throws Exception {
 		MockHttpServletResponse response = (MockHttpServletResponse) mvc
 				.perform(get("/test").contentType(MediaType.APPLICATION_JSON)).andReturn().getResponse();
-		assertThat(response.getStatus()).isEqualTo(HttpStatus.CREATED.value());
+		assertThat(response.getStatus()).isEqualTo(HttpStatus.OK.value());
 	}
 }
