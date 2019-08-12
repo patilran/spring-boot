@@ -27,6 +27,6 @@ public class TestApplicationTests {
 	public void testController() throws Exception {
 		MockHttpServletResponse response = (MockHttpServletResponse) mvc
 				.perform(get("/test").contentType(MediaType.APPLICATION_JSON)).andReturn().getResponse();
-		assertThat(response.getStatus()).isEqualTo(HttpStatus.OK.value());
+		assertThat(response.getStatus()).isEqualTo(HttpStatus.CREATED.value());
 	}
 }
