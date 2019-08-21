@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<servers>
+		<server>
+			<id>dev-azure-com-anjalirainy45-anjalirainy45</id>
+			<username>anjalirainy45</username>  
+			<password>aavh4klt3qzoxxal2a3qaiamuoju3yt7d3y7mckyustue2tzes7a</password>
+		</server>
+	</servers>
+</settings>
+	
